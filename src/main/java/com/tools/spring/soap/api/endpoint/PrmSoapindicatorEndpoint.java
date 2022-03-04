@@ -6,7 +6,7 @@ import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-import org.csapi.schema.parlayx.data.sync.v1_0.local.Acknowledgement;
+import org.csapi.schema.parlayx.data.sync.v1_0.local.SyncSubscriptionDataResponse;
 import org.csapi.schema.parlayx.data.sync.v1_0.local.SyncSubscriptionDataRequest;
 
 import com.tools.spring.soap.api.service.PrmSoapService;
@@ -20,7 +20,7 @@ public class PrmSoapindicatorEndpoint {
 
 	@PayloadRoot(namespace = NAMESPACE, localPart = "SyncSubscriptionDataRequest")
 	@ResponsePayload
-	public Acknowledgement getResult(@RequestPayload SyncSubscriptionDataRequest request) {
+	public SyncSubscriptionDataResponse getResult(@RequestPayload SyncSubscriptionDataRequest request) {
 		return service.buildResult(request);
 	}
 

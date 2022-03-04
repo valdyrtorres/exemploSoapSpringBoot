@@ -2,7 +2,7 @@
 // Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.2 
 // Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
 // Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
-// Gerado em: 2022.03.03 às 11:58:14 PM BRT 
+// Gerado em: 2022.03.04 às 12:11:49 AM BRT 
 //
 
 
@@ -37,8 +37,8 @@ import javax.xml.bind.annotation.XmlType;
 @XmlType(name = "", propOrder = {
     "result"
 })
-@XmlRootElement(name = "Acknowledgement")
-public class Acknowledgement {
+@XmlRootElement(name = "SyncSubscriptionDataResponse")
+public class SyncSubscriptionDataResponse {
 
     protected int result;
 

@@ -15,7 +15,7 @@
 		</xsd:complexType>
 	</xsd:element>
 
-	<xsd:element name="Acknowledgement">
+	<xsd:element name="SyncSubscriptionDataResponse">
 		<xsd:complexType>
 			<xsd:sequence>
 				<xsd:element name="result" type="xsd:int" />
