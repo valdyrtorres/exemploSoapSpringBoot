@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://www.csapi.org/schema/parlayx/data/sync/v1_0/local"
+	xmlns:tns="http://www.csapi.org/schema/parlayx/data/sync/v1_0/local"
+	elementFormDefault="qualified">
+
+	<xsd:element name="SyncSubscriptionDataRequest">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="MSISDN" type="xsd:string" />
+				<xsd:element name="serviceId" type="xsd:string" />
+				<xsd:element name="productId" type="xsd:string" />
+				<xsd:element name="updateType" type="xsd:int" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+
+	<xsd:element name="Acknowledgement">
+		<xsd:complexType>
+			<xsd:sequence>
+				<xsd:element name="result" type="xsd:int" />
+			</xsd:sequence>
+		</xsd:complexType>
+	</xsd:element>
+</xsd:schema>

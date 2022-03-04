@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este arquivo foi gerado pela Arquitetura JavaTM para Implementação de Referência (JAXB) de Bind XML, v2.3.2 
+Consulte <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas as modificações neste arquivo serão perdidas após a recompilação do esquema de origem. 
+Gerado em: 2022.03.03 às 08:48:47 PM BRT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://www.tools.com/spring/soap/api/loanEligibility">
+    <schemaBindings map="false">
+      <package name="com.tools.spring.soap.api.loaneligibility"/>
+    </schemaBindings>
+    <bindings scd="tns:CustomerRequest">
+      <class ref="com.tools.spring.soap.api.loaneligibility.CustomerRequest"/>
+    </bindings>
+    <bindings scd="tns:Acknowledgement">
+      <class ref="com.tools.spring.soap.api.loaneligibility.Acknowledgement"/>
+    </bindings>
+  </bindings>
+</bindings>
+
